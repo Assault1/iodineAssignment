@@ -9,7 +9,9 @@
 	```
 2. How to run the bundled tests from CLI:
 	```bash
-	npm run cy:scripts
+	npm run cy:run
+	or npm run cy:scripts (for repeated execution)
+	
 	```
 3. How to run the bundled tests from Cypress Test Runner:
 	```bash
