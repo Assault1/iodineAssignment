@@ -37,7 +37,7 @@ After building up a suite of tests and integrating Cypress with CI Provider whic
 	```
 4. Push to the original branch: 
 	```
-	git push
+	git push origin <branch_name>
 	```
 5. Create a pull request and assign to your reviewer.
 
