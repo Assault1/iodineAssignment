@@ -1,0 +1,28 @@
+{
+    "linkWelcomePage" : "li > a",
+    "frameid" : "#gnewtonIframe",
+    "selectYes" : "div[class='gnewtonQuestionYes']",
+    "selectNo" : "div[class='gnewtonQuestionNo']",
+    "save" : "#saveBtn",
+    "submit" : "button[type='submit']",
+    "maleGender" : "#male",
+    "femaleGender": "#female",
+    "radioLabel" : "[class='radio-label']",
+    "input" : "input",
+    "racesubmit" : "#gnewton-submit",
+    "fullName" : "#your-name",
+    "dateTextbox" : "#today-date",
+    "firstName" : "#firstName",
+    "lastName" : "#lastName",
+    "submitText" : "#submitText",
+    "email" : "#email",
+    "company" : "Company",
+    "career" : "Career",
+    "pageUrl" : "/careers-2/",
+    "apply" : "Apply for this Position",
+    "jobIntroUrl" : "https://recruitingbypaycor.com/career/JobIntroduction.action",
+    "submitResumeUrl" : "https://recruitingbypaycor.com/career/SubmitResume.action",
+    "submitQuesUrl" : "https://recruitingbypaycor.com/career/SubmitQuestionnaire.action",
+    "submitFormUrl" : "https://recruitingbypaycor.com/career/SubmitVevraaForm.action"
+
+}
