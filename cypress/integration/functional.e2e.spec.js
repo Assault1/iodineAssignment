@@ -5,14 +5,14 @@ import pageActions from "../support/pageAction";
 
 var page = new pageActions();
 
-describe("Open the iodine software", () =>{
+describe("Iodine Software Career", () =>{
     before(() => {
 
         page.launchURL();
 
       });
 
-    it("Open the application on browser", () => {
+    it("Verify validation message on required email field", () => {
 
         page.navigateToCareer();
         page.validateUrl();

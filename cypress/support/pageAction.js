@@ -2,7 +2,7 @@
 
 import pageObjects from "../support/pageObjects";
 const locators = require("../support/locator.json");
-const data = require("../support/testData.json");
+const data = require("../fixtures/testData.json");
 
 var obj = new pageObjects();
 
@@ -35,31 +35,31 @@ class pageActions {
     }
 
     authorizedSponserhipForm() {
-        obj.authorizedToWork().click()
+        obj.authorizedToWork().click();
         obj.sponsorship().click();
         obj.save().click();
     }
 
     formSubmit() {
-        obj.submitButton().click()
+        obj.submitButton().click();
     }
     
     genderRace () {
 
-        cy.wait(2000)
+        cy.wait(Cypress.env("longwait"));
         obj.genderSelect().click();
         obj.race().click();
         obj.submit().click();
     }
     
     selectVetran(){
-        cy.wait(2000);
+        cy.wait(Cypress.env("longwait"));
         obj.veteran().should('be.visible').click();
         obj.submit().click();
     }
 
     selectDisablity() {
-        cy.wait(2000);
+        cy.wait(Cypress.env("longwait"));
         obj.disability().click();
         obj.name().type(data.fullName);
         obj.date().type(obj.todaysDate());
@@ -71,7 +71,7 @@ class pageActions {
         obj.firstName().clear()
         obj.firstName().type(data.firstName);
         obj.lastName().clear()
-        obj.lastName().type(data.LastName);
+        obj.lastName().type(data.lastName);
         obj.submitForm().click();
     }
 

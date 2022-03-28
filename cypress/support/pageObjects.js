@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 const locators = require("../support/locator.json");
-const data = require("../support/testData.json");
+const data = require("../fixtures/testData.json");
 
 class pageObjects {
 

@@ -4,6 +4,7 @@
     "chromeWebSecurity": false,
     
     "env": {
-        "baseUrl": "https://iodinesoftware.com/"
+        "baseUrl": "https://iodinesoftware.com/",
+        "longwait" : 2000
     }
 }
