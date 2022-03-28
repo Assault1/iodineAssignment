@@ -44,11 +44,11 @@ After building up a suite of tests and integrating Cypress with CI Provider whic
 ## How to write tests and How to organize the tests.
 Current Cypress framework is structured in four layer. Design of current framework is comprised of -
 
-End to End test - All test are written in cypress/integration/ folder. Test file should have *.spec.js filename in the end.
-Page Actions - All repeatable action are written in this folder. 
-Page Object - All object which are utilised actions files are being declared here and returned at per the requirement of the test.
-Locator - CSS locator elements are stored here. It is in JSON format.
-Test data - All user specific data is present here. ie- Name, Job type etc. t is in JSON format.
+1. End to End test - All test are written in cypress/integration/ folder. Test file should have *.spec.js filename in the end.
+2. Page Actions - All repeatable action are written in this folder. 
+3. Page Object - All object which are utilised actions files are being declared here and returned at per the requirement of the test.
+4. Locator - CSS locator elements are stored here. It is in JSON format.
+Test data - All user specific data is present here. ie- Name, Job type etc. It is in JSON format.
 
 ## Reports
 
