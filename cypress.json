@@ -1,0 +1,9 @@
+{
+    "viewportWidth": 1360,
+    "viewportHeight": 720,
+    "chromeWebSecurity": false,
+    
+    "env": {
+        "baseUrl": "https://iodinesoftware.com/"
+    }
+}
