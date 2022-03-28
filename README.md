@@ -50,7 +50,7 @@ Current Cypress framework is structured in four layer. Design of current framewo
 2. Page Actions - All repeatable action are written in this folder. 
 3. Page Object - All object which are utilised actions files are being declared here and returned at per the requirement of the test.
 4. Locator - CSS locator elements are stored here. It is in JSON format.
-Test data - All user specific data is present here. ie- Name, Job type etc. It is in JSON format.
+5. Test data - All user specific data is present here. ie- Name, Job type etc. File is present in fixture folder.
 
 ## Reports
 
