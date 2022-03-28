@@ -40,7 +40,7 @@ After building up a suite of tests and integrating Cypress with CI Provider whic
 	git push
 	```
 5. Create a pull request and assign to your reviewer.
-6. 
+
 ## How to write tests and How to organize the tests.
 Current Cypress framework is structured in four layer. Design of current framework is comprised of -
 
